@@ -1,0 +1,96 @@
+body {
+     background-color:whitesmoke;
+     font-family:'Helvetica';
+     font-size: 12px;
+     color: #a8dadc;
+     }
+H1   {
+    background-color:whitesmoke;
+    color: #3966e6;
+    font-size: 35px;
+    font-style: normal;
+     }
+
+     .rutas{
+          display: flex;
+          flex-direction: row;
+          background-color: burlywood;
+          justify-content: flex-end;
+          height: 50px;
+          width: auto;
+          margin: 5px;    
+     }
+
+     .mapa{
+     display: flexbox;
+     align-items:center;
+
+     }
+
+     .block{
+          display: flex;
+          flex-direction: column;
+          background-color: whitesmoke;
+          justify-content: center;
+          margin: 15px;
+     }
+
+     .box{
+          background-color:whitesmoke;
+          display:flex; 
+          flex-direction:row;
+          justify-content: center;
+          margin: 5px;
+     }
+     .caja{
+          background-color:burlywood;
+          display:inline-block;
+          inline-size: auto;
+          margin:5px; 
+     }
+     .link{
+          background-color:burlywood;
+          display:inline-block;
+          inline-size: auto;
+          margin:5px; 
+     }
+     h2{
+          font-family: 'Helvetica', Tahoma, Geneva, Verdana, sans-serif;
+          color:gray;
+          font-size: 32px;
+          font-weight: 300;
+          font-style: italic; 
+     }
+     nav{
+          font-family:;
+          color: blue;
+          font-size: 18px;
+          font-weight: 300;
+          font-style: normal;
+     }
+     p{
+          font-family: "Lato";
+          color:black;
+          font-size: 18px;
+          font-weight: 300;
+          font-style: italic;  
+     }
+     th{
+          font-family: "Oswald";
+          color:black;
+          font-size: 18px;
+          font-weight: 300;
+          font-style: normal; 
+     }
+     td{
+          font-family: "Helvetica";
+          color:black;
+          font-size: 18px;
+          font-weight: 300;
+          font-style: normal;
+          text-align: left;
+          border-color: crimson;
+          border-width: 3px;
+          margin-top: 25px;
+     }
+
